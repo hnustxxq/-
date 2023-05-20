@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<mapper namespace="com.itheima.mapper.CourseMapper">
+
+    <select id="selectAll" resultType="Course">
+
+        select * from s_student ;
+
+    </select>
+
+    <select id="selectone" resultType="Course" >
+
+        select * from s_student where id = #{id};
+
+    </select>
+
+    <select id="selectcs" resultType="Course">
+
+        select * from s_student where sid = #{sid};
+
+    </select>
+
+    <insert id="add" useGeneratedKeys="true" keyProperty="id">
+        insert into s_student(name, hours, sid)
+        values (#{name}, #{hour}, #{sid});
+    </insert>
+
+    <update id="update">
+        update s_student set hours = hours + 8 where id = 4;
+    </update>
+
+</mapper>

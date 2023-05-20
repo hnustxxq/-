@@ -1,0 +1,16 @@
+com\hnust\mapper\UserMapper.class
+com\hnust\web\DeleteServlet.class
+com\hnust\util\SqlSessionFactoryUtils.class
+com\hnust\web\RegisterServlet.class
+com\hnust\web\SelectAllServlet.class
+com\hnust\web\filter\LoginFilter.class
+com\hnust\web\SelectByIdServlet.class
+com\hnust\util\CheckCodeUtil.class
+com\hnust\web\CheckCodeServlet.class
+com\hnust\web\AddServlet.class
+com\hnust\web\DeletePreServlet.class
+com\hnust\web\LoginServlet.class
+com\hnust\pojo\User.class
+com\hnust\web\UpdateServlet.class
+com\hnust\service\UserService.class
+com\hnust\service\CourseService.class
